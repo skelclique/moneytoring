@@ -1,8 +1,20 @@
 import Image from 'next/image'
 import { ReactNode } from 'react'
 import splashImg from '@/assets/splash.png'
+import { auth } from '@/auth'
+import { redirect } from 'next/navigation'
 
-export default function AuthLayout({ children }: { children: ReactNode }) {
+export default async function AuthLayout({
+  children,
+}: {
+  children: ReactNode
+}) {
+  const session = await auth()
+
+  if (session) {
+    redirect('/dashboard')
+  }
+
   return (
     <div className="flex">
       {children}
