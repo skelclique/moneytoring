@@ -13,6 +13,9 @@ export default {
     extend: {
       textFillColor: (theme: any) => theme('colors'),
       colors: colors,
+      fontFamily: {
+        Gordita: 'Gordita',
+      },
     },
   },
   plugins: [
