@@ -2,6 +2,7 @@ import { ReactNode } from 'react'
 import { Sidebar } from './sidebar'
 import { auth } from '@/auth'
 import { redirect } from 'next/navigation'
+import { HomeHeaderLayout } from './header'
 
 export default async function HomeLayout({
   children,
@@ -17,7 +18,10 @@ export default async function HomeLayout({
   return (
     <div className="flex min-h-screen">
       <Sidebar />
-      {children}
+      <div className="flex-1 py-8 px-10">
+        <HomeHeaderLayout session={session} />
+        {children}
+      </div>
     </div>
   )
 }
