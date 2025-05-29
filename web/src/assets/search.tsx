@@ -9,7 +9,6 @@ export function Search() {
     >
       <path
         d="M11 19a8 8 0 100-16 8 8 0 000 16zM21 21l-4.35-4.35"
-        stroke="#929EAE"
         strokeWidth={2}
         strokeLinecap="round"
         strokeLinejoin="round"
