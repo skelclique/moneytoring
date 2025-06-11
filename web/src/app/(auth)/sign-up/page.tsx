@@ -57,10 +57,16 @@ export default function SignIn() {
               </div>
             </div>
             <div className="mt-6 flex flex-col gap-4">
-              <button className="px-5 py-4 bg-lime-600 font-semibold rounded-lg">
+              <button
+                type="submit"
+                className="px-5 py-4 bg-lime-600 font-semibold rounded-lg"
+              >
                 Create Account
               </button>
-              <button className="dark:text-gray-300 dark:border-gray-500 px-5 py-4 border border-gray-150 font-semibold rounded-lg flex gap-2 items-center justify-center">
+              <button
+                type="button"
+                className="dark:text-gray-300 dark:border-gray-500 px-5 py-4 border border-gray-150 font-semibold rounded-lg flex gap-2 items-center justify-center"
+              >
                 <Google />
                 Sign up with google
               </button>

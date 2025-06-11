@@ -2,6 +2,7 @@
 import { Search } from '@/assets/search'
 import Image from 'next/image'
 import IphoneImg from '@/assets/iphone.png'
+import { Button } from '@/components/button'
 
 export default function Transactions() {
   return (
@@ -73,9 +74,7 @@ export default function Transactions() {
                 MNT0124877
               </td>
               <td className="py-4 group-first:pt-5 text-left font-medium text-sm text-gray-200 dark:text-gray-300">
-                <button className="bg-lime-600 text-gray-700 rounded-md font-semibold text-sm px-5 py-2.5">
-                  View
-                </button>
+                <Button>View</Button>
               </td>
             </tr>
             <tr className="group last:border-0 border-b border-gray-150 dark:border-gray-600">
@@ -111,9 +110,7 @@ export default function Transactions() {
                 MNT0124876
               </td>
               <td className="py-4 group-first:pt-5 text-left font-medium text-sm text-gray-200 dark:text-gray-300">
-                <button className="bg-lime-600 text-gray-700 rounded-md font-semibold text-sm px-5 py-2.5">
-                  View
-                </button>
+                <Button>View</Button>
               </td>
             </tr>
             <tr className="group last:border-0 border-b border-gray-150 dark:border-gray-600">
@@ -151,9 +148,7 @@ export default function Transactions() {
                 MNT0124875
               </td>
               <td className="py-4 group-first:pt-5 text-left font-medium text-sm text-gray-200 dark:text-gray-300">
-                <button className="bg-lime-600 text-gray-700 rounded-md font-semibold text-sm px-5 py-2.5">
-                  View
-                </button>
+                <Button>View</Button>
               </td>
             </tr>
             <tr className="group last:border-0 border-b border-gray-150 dark:border-gray-600">
@@ -188,9 +183,7 @@ export default function Transactions() {
                 MNT0124877
               </td>
               <td className="py-4 group-first:pt-5 text-left font-medium text-sm text-gray-200 dark:text-gray-300">
-                <button className="bg-lime-600 text-gray-700 rounded-md font-semibold text-sm px-5 py-2.5">
-                  View
-                </button>
+                <Button>View</Button>
               </td>
             </tr>
             <tr className="group last:border-0 border-b border-gray-150 dark:border-gray-600">
@@ -226,9 +219,7 @@ export default function Transactions() {
                 MNT0124876
               </td>
               <td className="py-4 group-first:pt-5 text-left font-medium text-sm text-gray-200 dark:text-gray-300">
-                <button className="bg-lime-600 text-gray-700 rounded-md font-semibold text-sm px-5 py-2.5">
-                  View
-                </button>
+                <Button>View</Button>
               </td>
             </tr>
             <tr className="group last:border-0 border-b border-gray-150 dark:border-gray-600">
@@ -266,9 +257,7 @@ export default function Transactions() {
                 MNT0124875
               </td>
               <td className="py-4 group-first:pt-5 text-left font-medium text-sm text-gray-200 dark:text-gray-300">
-                <button className="bg-lime-600 text-gray-700 rounded-md font-semibold text-sm px-5 py-2.5">
-                  View
-                </button>
+                <Button>View</Button>
               </td>
             </tr>
             <tr className="group last:border-0 border-b border-gray-150 dark:border-gray-600">
@@ -303,9 +292,7 @@ export default function Transactions() {
                 MNT0124877
               </td>
               <td className="py-4 group-first:pt-5 text-left font-medium text-sm text-gray-200 dark:text-gray-300">
-                <button className="bg-lime-600 text-gray-700 rounded-md font-semibold text-sm px-5 py-2.5">
-                  View
-                </button>
+                <Button>View</Button>
               </td>
             </tr>
             <tr className="group last:border-0 border-b border-gray-150 dark:border-gray-600">
@@ -341,9 +328,7 @@ export default function Transactions() {
                 MNT0124876
               </td>
               <td className="py-4 group-first:pt-5 text-left font-medium text-sm text-gray-200 dark:text-gray-300">
-                <button className="bg-lime-600 text-gray-700 rounded-md font-semibold text-sm px-5 py-2.5">
-                  View
-                </button>
+                <Button>View</Button>
               </td>
             </tr>
           </tbody>
